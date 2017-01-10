@@ -37,8 +37,8 @@ def main(argv=sys.argv[1:]):
     keep_cols = parsed_args.pop('keep_cols', '')
 
     ui = UI(parsed_args.get('prompt'), loglevel, stdout)
-    if not os.path.exists(parsed_args['dataset']):
-        ui.fatal('file %s does not exist.' % parsed_args['dataset'])
+    if not os.path.exists(dataset):
+        ui.fatal('file %s does not exist.' % dataset)
     argnames = filter(lambda k: parsed_args[k], parsed_args)
     include_args = dict((arg, parsed_args[arg]) for arg in argnames)
 

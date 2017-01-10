@@ -30,8 +30,9 @@ predicted_y
 diff
     predicted_x - predicted_y
 
-In case the were no differences between predictions ``out.csv`` produced.
-Otherwise predictions & differences are saved into ``diverged.csv`` file.
+In case the were no differences between predictions ``out.csv`` produced. You will
+also see a message like "First and second pass predictions matched". Otherwise
+predictions & differences are saved into ``diverged.csv`` file.
 
 Usage
 =====

@@ -61,3 +61,5 @@ def compute_divergency(datasets, encoding, ui):
 
         diverged.to_csv(filename, encoding=encoding)
         ui.info("We have diverged rows. Awailable as %s" % filename)
+    else:
+        ui.info("First and second pass predictions matched")

@@ -48,4 +48,4 @@ Usage
   as you used to do with datarobot_batch_scoring
 
 
-.. _batch-scoring: http://www.python.org/
+.. _batch-scoring: https://github.com/datarobot/batch-scoring
